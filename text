@@ -1,0 +1,22 @@
+rock - closed fist
+paper - a flat hand
+scissors - a fist with index and middle finger out
+
+scissors beats paper
+    - scissors cut paper
+rock beats scissors
+    - sometimes blunts scissors
+    - breaks scissors
+    - crushes scissors
+paper beats rock
+    - paper covers rock
+score system to 3
+players
+    - 2(user and ai)
+outcomes
+    win by 3
+    if user or computer hits 3 the other opponent loses adding a lost to their win-losses-record
+    draw if both users
+
+Links for research
+https://en.wikipedia.org/wiki/Rock_paper_scissors
