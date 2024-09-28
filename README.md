@@ -2,14 +2,29 @@
 A basic Rock Paper Scissors game built using Python, Tkinter UI
 
 ## Table of Contents
- - [How the game works](#Howthegameworks)
- - [Features](##Features)
- - [Images](##ImagesoftheGame)
- - [Technologies Used](##Technologiesused)
+ - [How the game works](#how-the-game-works)
+ - [Download Game](#download-game)
+ - [Features](#features)
+ - [Images of the Game](#images-of-the-game)
+ - [Technologies and Resources Used](#technologies-and-resources-used-)
+ - [Author](#authors)
 
 ## How the game works
  - Once the game starts, you choose between Rock, Paper, Scissors to win a game to 3 with the computer
   - The goal of the game is to beat the computer by 3
+
+## Download Game
+```
+  To download the Rock Paper Scissors game project, follow these steps:
+
+1. Click on the Code button from my repository page.
+2. Select Download ZIP to download the project files.
+3. Extract the ZIP file to your desired location.
+4. Open your preferred IDE (such as PyCharm, Visual Studio Code, or IDLE).
+5. Open the RockPaperScissorsGame.py file in the IDE.
+6. Run the script to start the game.
+Note: The program uses tkinter module so make sure to install that
+```
 
 ## Features
  - User Friendly GUI 
@@ -35,6 +50,4 @@ A basic Rock Paper Scissors game built using Python, Tkinter UI
 ## Authors
 
 - [@TrenyceCodes](https://github.com/TrenyceCodes)
-
-
 
