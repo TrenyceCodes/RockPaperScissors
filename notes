@@ -18,5 +18,7 @@ outcomes
     if user or computer hits 3 the other opponent loses adding a lost to their win-losses-record
     draw if both users
 
+Lambda is used so when we call the handle_
+
 Links for research
 https://en.wikipedia.org/wiki/Rock_paper_scissors
