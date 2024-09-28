@@ -1,7 +1,6 @@
 import random
 from tkinter import *
 from tkinter import messagebox
-from PIL import ImageTk, Image
 
 GameRoot = Tk()
 
@@ -10,6 +9,7 @@ class RockPaperScissorsGame:
     ai_points: int
     game_match: int
     ai_options: list[str]
+    widget_width_height: int
 
     def __init__(self, game_root: Tk):
         self.game_root = game_root
@@ -19,6 +19,7 @@ class RockPaperScissorsGame:
         self.user_points = 0
         self.ai_points = 0
         self.game_match = 3
+        self.widget_width_height = 20
         self.ai_options = ["rock", "paper", "scissors"]
 
         self.handle_managing_widgets()
@@ -42,14 +43,14 @@ class RockPaperScissorsGame:
         self.result_label = Label(GameRoot, text=f"")
         self.result_label.grid(column=1, row=4)
 
-        Button(GameRoot, text="Rock", command=lambda: self.handle_winner("rock"), width=20, height=20).grid(
+        Button(GameRoot, text="Rock", command=lambda: self.handle_winner("rock"), width=self.widget_width_height, height=self.widget_width_height).grid(
             column=0,
             row=1)
-        Button(GameRoot, text="Scissors", command=lambda: self.handle_winner("scissors"), width=20,
-               height=20).grid(
+        Button(GameRoot, text="Scissors", command=lambda: self.handle_winner("scissors"), width=self.widget_width_height,
+               height=self.widget_width_height).grid(
             column=1,
             row=1)
-        Button(GameRoot, text="Paper", command=lambda: self.handle_winner("paper"), width=20, height=20).grid(
+        Button(GameRoot, text="Paper", command=lambda: self.handle_winner("paper"), width=self.widget_width_height, height=self.widget_width_height).grid(
             column=3,
             row=1)
         Button(GameRoot, text="Exit Game", command=self.game_root.destroy).grid(column=1, row=0)
